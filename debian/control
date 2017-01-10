@@ -1,0 +1,13 @@
+Source: kaptan
+Maintainer: Michael Mattice <mmattice@ok7-eleven.com>
+Section: python
+Priority: optional
+Build-Depends: dh-python, python-setuptools (>= 0.6b3), python-all (>= 2.6.6-3), debhelper (>= 9)
+Standards-Version: 3.9.6
+Homepage: https://github.com/emre/kaptan
+
+Package: python-kaptan
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}
+Description: Configuration Manager
+
